@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ali Shuaib</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div id="navLogo" class="logo"><img src="res/logo.png" alt=""></div>  
+        <div id="jumpLinks">
+            <div class="jump" onclick="location.replace('#p1');">
+                <div></div>
+                <p>Home</p>
+            </div>      
+            <div class="jump" onclick="location.replace('#p2');">
+                <div></div>
+                <p>Skills</p>
+            </div>  
+            <div class="jump" onclick="location.replace('#p3');">
+                <div></div>
+                <p>Projects</p>
+            </div>  
+            <div class="jump" onclick="location.replace('#p4');">
+                <div></div>
+                <p>Information</p>
+            </div>
+            <div class="contact" onclick="location.replace('#p4');">
+                <div></div>
+                <p>Contact</p>
+            </div>
+
+        </div>        
+    </nav>
+
+    <!-- Overlay -->
+    <section class="overlay">
+        <div id="o-links">
+            <div class="vTree lTree">
+                
+                <div class="vImg" onClick="window.open('https://github.com/PhantomPrimo','_blank');">
+                    <img src="res/icons8_GitHub_96px_4.png" alt="">
+                    <img src="res/icons8_GitHub_96px_3.png" alt="">
+                </div>                
+                <br>
+                <div class="vImg" onClick="window.open('https://codepen.io/phantomprimo','_blank');">
+                    <img src="res/icons8_code_96px_5.png" alt="">
+                    <img src="res/icons8_code_96px_4.png" alt="">
+                </div>
+                <br>
+            </div>
+            <div id="vLine"></div>
+            <div class="vTree rTree">
+                <br>
+                <div class="vImg" onClick="window.open('https://twitter.com/PhantomPrimo','_blank');">
+                    <img src="res/icons8_twitter_96px_4.png" alt="">
+                    <img src="res/icons8_twitter_96px_3.png" alt="">
+                </div>                
+                <br>
+                <div class="vImg" onClikc="window.open('https://ca.linkedin.com/','_blank');">
+                    <img src="res/icons8_linkedin_96px_5.png" alt="">
+                    <img src="res/icons8_linkedin_96px_4.png" alt="">
+                </div> 
+            </div>
+        </div>
+        <div id="o-page">
+            <div class="page-indicator current-page"></div>
+            <div class="page-indicator"></div>
+            <div class="page-indicator"></div>
+            <div class="page-indicator"></div>
+        </div>
+    </section>
+    <!-- Main Pages -->
+    <section class="page-manager">
+        <article id='p1' class="home-page">
+            <div class="home-main">
+                <h1>Welcome, my name is</h1>
+                <h2>Ali Shuaib</h2>
+                <h3>A Web Dev Building<br>Creative Solutions</h3>
+            </div>            
+            <div class="home-detail">
+                <p>
+                    I'm a Freelance Developer and a BCOMM - Business Administration/Accounting Student that enjoys designing digital tools focused around solving common issues.
+                    Ranging from small scripts for a repetitive task to full stack web applications helping numerous people.
+                </p>
+            </div>
+            <div class="mouse-prompt">
+                <p>Use Your Mouse Wheel to Navigate</p>
+                <img src="res/mouse_scrolling_120px.png" alt="">
+            </div>
+        </article>
+        <article id='p2' class="lang-page">
+            <div class="lang-major">
+                <div class="lang-img img-lg">
+                    <img src="res/lang/icons8_python_500px_1.png" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="lang-img img-lg">
+                    <img src="res/lang/icons8_javascript_500px.png" alt="">
+                    <p>Javascript</p>
+                </div>
+                <div class="lang-img img-lg">
+                    <img src="res/lang/icons8_nodejs_512px_2.png" alt="">
+                    <p>Node JS</p>
+                </div>
+                <div class="lang-img img-lg">
+                    <img src="res/lang/icons8_react_480px_2.png" alt="">
+                    <p>React</p>
+                </div>
+                <div class="lang-img img-lg">
+                    <img src="res/lang/icons8_html_5_480px_1.png" alt="">
+                    <p>HTML 5</p>
+                </div>
+                <div class="lang-img img-lg">
+                    <img src="res/lang/icons8_css3_480px_1.png" alt="">
+                    <p>CSS 3</p>
+                </div>
+            </div>
+            <div class="lang-title"><p>Languages and Tools I Work With</p></div>            
+            <div class="lang-minor">
+                <div class="lang-img img-sm">
+                    <p>C-Sharp</p>
+                    <img src="res/lang/icons8_c_sharp_logo_500px_2.png" alt="">
+                </div>
+                <div class="lang-img img-sm">
+                    <p>C++</p>
+                    <img src="res/lang/icons8_c++_500px_4.png" alt="">
+                </div>
+                <div class="lang-img img-sm">
+                    <p>AWS</p>
+                    <img src="res/lang/icons8_amazon_web_services_512px_2.png" alt="">
+                </div>
+                <div class="lang-img img-sm">
+                    <p>Github</p>
+                    <img src="res/lang/icons8_github_512px_3.png" alt="">
+                </div>
+            </div>
+        </article>
+        <article id='p3' class="project-page">
+            <div class="project-showcase">
+                <div class="show-header">
+                    <p>Featured Projects</p>
+                </div>
+                <div class="show-case">
+                    <div class="show current-show">
+                        <div class="case-image">
+                            <img src="res/project/ngslivemap.png" alt="">
+                        </div>
+                        <div class="case-details">
+                            <h2>New-Genesis Live Map</h2>
+                            <p>⚬ A Interactive Map for Phantasy Star New Genesis. <br>⚬ Designed to track locations of items found in game allowing users's to find resources with ease<br>⚬ Features collaborator tools to let users add, remove and update the map without ever touching the code</p>
+                        </div>
+                        <div class="case-lang">
+                            <p>Node JS</p>
+                            <p>HTML</p>
+                            <p>CSS</p>                            
+                            <p>React.js</p>
+                            <p>Express.js</p>
+                            <p>AWS</p>
+                        </div>
+                        <div class="case-links">
+                            <div onClick="window.open('https://ngs.matoi.ca','_blank');">
+                                <img src="res/external_link_96px_2.png" alt="">
+                                <img src="res/external_link_96px_1.png" alt="">                                
+                            </div>                            
+                        </div>
+                    </div>         
+                    <div class="show">
+                        <div class="case-image">
+                            <img src="res/project/matoichan.png" alt="">
+                        </div>
+                        <div class="case-details">
+                            <h2>Matoi-Chan Discord Bot</h2>
+                            <p>
+                                ⚬ A Discord Chat Bot designed to present information from Phantasy Star Online 2 <br>⚬ The chat bot conducts various advanced tasks to make the community's gaming experience easier.<br>⚬ Tasks such as Event alerts, Gear details, News Posts, Twitter alerts and much more.
+                            </p>
+                        </div>
+                        <div class="case-lang">
+                            <p>Python</p>                            
+                            <p>Node JS</p>
+                            <p>Express.js</p>                            
+                            <p>HTML</p>
+                            <p>CSS</p>                            
+                            <p>JS</p>
+                            <p>AWS</p>
+                            <p>MongoDB</p>
+                        </div>
+                        <div class="case-links">
+                            <div onClick="window.open('https://matoi.ca','_blank');">
+                                <img src="res/external_link_96px_2.png" alt="">
+                                <img src="res/external_link_96px_1.png" alt="">                                
+                            </div>                            
+                        </div>
+                    </div>   
+                    <div class="show">
+                        <div class="case-image">
+                            <img src="res/project/dashboard.png" alt="">
+                        </div>
+                        <div class="case-details">
+                            <h2>New-Genesis Dashboard</h2>
+                            <p>⚬ A modern and simplistic dashboard designed to help players plan gear.<br>⚬ Lets users simulate gear stats based on real in-game calculations<br>⚬ Users can save and load gear loadouts as well</p>
+                        </div>
+                        <div class="case-lang">    
+                            <p>JS</p>                      
+                            <p>HTML</p>
+                            <p>CSS</p>                                      
+                            <p>AWS</p>
+                            <p>Express.js</p>
+                        </div>
+                        <div class="case-links">
+                            <div>
+                                <img src="res/external_link_96px_2.png" alt="">
+                                <img src="res/external_link_96px_1.png" alt="">                                
+                            </div>                            
+                        </div>
+                    </div>              
+                </div>
+                <div class="show-btns">
+                    <button>Previous</button>
+                    <div class="box current-box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <button>Next</button>
+                </div>
+            </div>
+            <div class="project-other">
+                <div class="show-header">
+                    <p>Other Projects</p>
+                </div>
+                <div class="project-list"> 
+                    <div class="project">
+                        <!-- <img class="project-icon"src="res/code_file_96px_1.png" alt=""> -->
+                        <div class="project-links" onClick="window.open('https://celestial.matoi.ca','_blank');">
+                            <div>
+                                <img src="res/external_link_96px_2.png" alt="">
+                                <img src="res/external_link_96px_1.png" alt="">                                
+                            </div> 
+                        </div>
+                        <h2>Celestial Echo</h2>
+                        <p class="project-desc">A test site for designing a web app music player for Genshin Soundtracks</p>
+                        <div class="project-lang">
+                            <p>HTML</p>                            
+                            <p>CSS</p>
+                            <p>Vanilla JS</p> 
+                        </div>                    
+                    </div>
+
+                    <div class="project">
+                        <!-- <img class="project-icon"src="res/code_file_96px_1.png" alt=""> -->
+                        <div class="project-links" onClick="window.open('https://github.com/PhantomPrimo/Better-Volume-Mixer','_blank');">
+                            <div>
+                                <img src="res/external_link_96px_2.png" alt="">
+                                <img src="res/external_link_96px_1.png" alt="">                                
+                            </div> 
+                        </div>
+                        <h2>Better Volume Mixer</h2>
+                        <p class="project-desc">A small project in an attempt to build a better windows volume mixer. Made using C# backend for volume control and electron.js for frontend UI</p>
+                        <div class="project-lang">
+                            <p>C#</p>                            
+                            <p>Node JS</p>
+                            <p>Electron.js</p> 
+                        </div>                    
+                    </div>
+
+                    <div class="project">
+                        <!-- <img class="project-icon"src="res/code_file_96px_1.png" alt=""> -->
+                        <div class="project-links" onClick="window.open('https://github.com/PhantomPrimo/SteelSeries-OLED-Clock','_blank');">
+                            <div>
+                                <img src="res/external_link_96px_2.png" alt="">
+                                <img src="res/external_link_96px_1.png" alt="">                                
+                            </div> 
+                        </div>
+                        <h2>SteelSeries OLED Clock</h2>
+                        <p class="project-desc">A short application to display time on SteelSeries Keyboards. Generates Pixel Time images and updates the time shown to your keyboard screen</p>
+                        <div class="project-lang">
+                            <p>Python</p>    
+                        </div>                    
+                    </div>
+                    
+                </div>
+            </div>
+        </article>
+        <article id='p4' class="contact-page">
+            <div class="contact-info">
+                <h2>Want to get in contact?</h2>
+                <p>For sure!<br>You can send over a email<br> Always happy to have a conversation.</p>
+                <div>
+                    <p>Email: <code>alishuaib2001as@gmail.com</code></p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+</body>
+<!-- Custom Scripts -->
+<script src="js/main.js"></script>
+</html>
